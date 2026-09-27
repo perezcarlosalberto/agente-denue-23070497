@@ -10,7 +10,9 @@ import os
 from google import genai
 from google.genai import types
 
-MODELO_POR_OMISION = "gemini-3.6-flash"
+# El documento del proyecto sugiere gemini-3.6-flash; se cambio a
+# gemini-3.5-flash-lite por su cuota diaria (ver README, decisiones de diseno).
+MODELO_POR_OMISION = "gemini-3.5-flash-lite"
 
 # El cliente se crea UNA sola vez, no en cada llamada.
 _cliente = None
