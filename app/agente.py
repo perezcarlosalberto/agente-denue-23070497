@@ -194,7 +194,7 @@ def responder(pregunta, herramientas, sistema, llamar, bitacora):
         raise RuntimeError("se agotaron los turnos sin texto")                   # 21
 
     except Exception as error:
-        bitacora("error", error=str(error)[:300])
+        bitacora("error", error=str(error)[:1500])  # largo: el final dice que cuota se agoto
         raise
 
 
