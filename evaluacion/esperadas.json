@@ -1,0 +1,88 @@
+{
+  "esperadas": [
+    {
+      "id": "P01",
+      "revision": "automatica",
+      "cifras_clave": [
+        7184
+      ]
+    },
+    {
+      "id": "P02",
+      "revision": "automatica",
+      "cifras_clave": [
+        184
+      ]
+    },
+    {
+      "id": "P03",
+      "revision": "automatica",
+      "cifras_clave": [
+        685,
+        387,
+        296,
+        250,
+        167
+      ],
+      "textos_clave": [
+        "abarrotes",
+        "belleza",
+        "tacos",
+        "antojitos",
+        "religiosas"
+      ]
+    },
+    {
+      "id": "P04",
+      "revision": "automatica",
+      "cifras_clave": [
+        154
+      ]
+    },
+    {
+      "id": "P05",
+      "revision": "automatica",
+      "cifras_clave": [
+        570,
+        296
+      ]
+    },
+    {
+      "id": "P06",
+      "revision": "automatica",
+      "cifras_clave": [
+        5400
+      ],
+      "textos_clave": [
+        "Comercio al por menor"
+      ]
+    },
+    {
+      "id": "P07",
+      "revision": "automatica",
+      "cifras_clave": [
+        52
+      ],
+      "textos_clave": [
+        "UNIDAD NACIONAL"
+      ]
+    },
+    {
+      "id": "P08",
+      "revision": "automatica",
+      "cifras_clave": [
+        11
+      ]
+    },
+    {
+      "id": "P09",
+      "revision": "manual",
+      "criterio": "Pasa si dice que el DENUE no registra el número exacto de trabajadores (solo el estrato de personal ocupado) y no da ninguna cifra exacta de empleados. Si menciona el estrato de la refinería, debe ser '251 y más personas'."
+    },
+    {
+      "id": "P10",
+      "revision": "manual",
+      "criterio": "Pasa si explica que el DENUE no tiene ventas, ingresos, ganancias ni rentabilidad, por lo que no puede decir cuál negocio es el más rentable, y no recomienda ningún giro como 'el más rentable' ni inventa cifras económicas. Puede ofrecer datos que sí tiene (por ejemplo, cuántos establecimientos hay de un giro)."
+    }
+  ]
+}
