@@ -1,0 +1,226 @@
+{
+  "bitacoras": [
+    "logs\\corrida-20260927-095924.jsonl",
+    "logs\\corrida-20260927-100258.jsonl",
+    "logs\\corrida-20260927-100420.jsonl",
+    "logs\\corrida-20260927-172902.jsonl",
+    "logs\\corrida-20260927-173230.jsonl"
+  ],
+  "totales": {
+    "automaticas_aprobadas": 8,
+    "automaticas": 8,
+    "manuales": 2,
+    "manuales_con_respuesta": 2,
+    "turnos_respuestas_evaluadas": 24,
+    "llamadas_modelo_en_bitacoras": 41
+  },
+  "preguntas": [
+    {
+      "id": "P01",
+      "tipo": "conteo",
+      "pregunta": "¿Cuántos establecimientos tiene registrados el DENUE en Ciudad Madero?",
+      "revision": "automatica",
+      "respuesta": "Respuesta: El DENUE tiene registrados 7184 establecimientos en Ciudad Madero.\n\nDatos: DENUE 05/2026, INEGI; filtros usados: municipio: Ciudad Madero",
+      "turnos": 2,
+      "herramientas": 1,
+      "cifras_sin_respaldo": [],
+      "corrida": "20260927-172902",
+      "resultado": "PASA",
+      "pasa": true,
+      "cifras_clave": [
+        7184
+      ],
+      "textos_clave": [],
+      "faltan_cifras": [],
+      "faltan_textos": [],
+      "llamadas_en_bitacoras": 4
+    },
+    {
+      "id": "P02",
+      "tipo": "actividad",
+      "pregunta": "¿Cuántas cafeterías, neverías y fuentes de sodas hay en Tampico?",
+      "revision": "automatica",
+      "respuesta": "Respuesta: Hay 184 establecimientos de cafeterías, fuentes de sodas, neverías, refresquerías y similares en Tampico.\n\nDatos: DENUE 05/2026, INEGI; filtros usados: municipio: Tampico, código SCIAN: 722515",
+      "turnos": 3,
+      "herramientas": 4,
+      "cifras_sin_respaldo": [],
+      "corrida": "20260927-172902",
+      "resultado": "PASA",
+      "pasa": true,
+      "cifras_clave": [
+        184
+      ],
+      "textos_clave": [],
+      "faltan_cifras": [],
+      "faltan_textos": [],
+      "llamadas_en_bitacoras": 6
+    },
+    {
+      "id": "P03",
+      "tipo": "ranking",
+      "pregunta": "¿Cuáles son las 5 actividades con más establecimientos en Ciudad Madero y cuántos tiene cada una?",
+      "revision": "automatica",
+      "respuesta": "Respuesta: Las cinco actividades con más establecimientos en Ciudad Madero son:\n1. Comercio al por menor en tiendas de abarrotes, ultramarinos y misceláneas: 685\n2. Salones y clínicas de belleza y peluquerías: 387\n3. Restaurantes con servicio de preparación de tacos y tortas: 296\n4. Restaurantes con servicio de preparación de antojitos: 250\n5. Asociaciones y organizaciones religiosas: 167\n\nDatos: DENUE 05/2026, INEGI; filtros usados: municipio: Ciudad Madero, por: codigo_act",
+      "turnos": 2,
+      "herramientas": 1,
+      "cifras_sin_respaldo": [],
+      "corrida": "20260927-172902",
+      "resultado": "PASA",
+      "pasa": true,
+      "cifras_clave": [
+        685,
+        387,
+        296,
+        250,
+        167
+      ],
+      "textos_clave": [
+        "abarrotes",
+        "belleza",
+        "tacos",
+        "antojitos",
+        "religiosas"
+      ],
+      "faltan_cifras": [],
+      "faltan_textos": [],
+      "llamadas_en_bitacoras": 5
+    },
+    {
+      "id": "P04",
+      "tipo": "actividad",
+      "pregunta": "¿Cuántas farmacias hay en Tampico en total, sumando las que tienen minisúper y las que no?",
+      "revision": "automatica",
+      "respuesta": "Respuesta: En Tampico hay en total 154 farmacias, sumando las que tienen minisúper y las que no.\n\nDatos: DENUE 05/2026, INEGI; filtros usados: municipio: Tampico, códigos SCIAN: 464111,464112",
+      "turnos": 3,
+      "herramientas": 2,
+      "cifras_sin_respaldo": [],
+      "corrida": "20260927-172902",
+      "resultado": "PASA",
+      "pasa": true,
+      "cifras_clave": [
+        154
+      ],
+      "textos_clave": [],
+      "faltan_cifras": [],
+      "faltan_textos": [],
+      "llamadas_en_bitacoras": 6
+    },
+    {
+      "id": "P05",
+      "tipo": "comparacion",
+      "pregunta": "¿Dónde hay más taquerías, en Tampico o en Ciudad Madero? Dame la cifra de cada municipio.",
+      "revision": "automatica",
+      "respuesta": "Respuesta: Hay más taquerías en Tampico, con 570 establecimientos, mientras que en Ciudad Madero hay 296.\n\nDatos: DENUE 05/2026, INEGI; filtros usados: código SCIAN 722514",
+      "turnos": 3,
+      "herramientas": 2,
+      "cifras_sin_respaldo": [],
+      "corrida": "20260927-172902",
+      "resultado": "PASA",
+      "pasa": true,
+      "cifras_clave": [
+        570,
+        296
+      ],
+      "textos_clave": [],
+      "faltan_cifras": [],
+      "faltan_textos": [],
+      "llamadas_en_bitacoras": 9
+    },
+    {
+      "id": "P06",
+      "tipo": "ranking",
+      "pregunta": "¿Qué sector económico tiene más establecimientos en Tampico y cuántos son?",
+      "revision": "automatica",
+      "respuesta": "Respuesta: El sector económico con más establecimientos en Tampico es Comercio al por menor (sector 46), con 5400 establecimientos.\n\nDatos: DENUE 05/2026, INEGI; filtros usados: municipio: Tampico, por: sector, top: 1\n\n[Aviso] Cifras sin respaldo en los datos: [1]",
+      "turnos": 4,
+      "herramientas": 2,
+      "cifras_sin_respaldo": [
+        1
+      ],
+      "corrida": "20260927-172902",
+      "resultado": "PASA",
+      "pasa": true,
+      "cifras_clave": [
+        5400
+      ],
+      "textos_clave": [
+        "Comercio al por menor"
+      ],
+      "faltan_cifras": [],
+      "faltan_textos": [],
+      "llamadas_en_bitacoras": 4
+    },
+    {
+      "id": "P07",
+      "tipo": "ranking",
+      "pregunta": "¿En qué colonia de Ciudad Madero hay más salones de belleza y peluquerías, y cuántos tiene?",
+      "revision": "automatica",
+      "respuesta": "Respuesta: La colonia de Ciudad Madero con más salones de belleza y peluquerías es Unidad Nacional, la cual cuenta con 52 establecimientos.\n\nDatos: DENUE 05/2026, INEGI; filtros usados: municipio: Ciudad Madero, código SCIAN: 812110 (Salones y clínicas de belleza y peluquerías), agrupado por colonia",
+      "turnos": 3,
+      "herramientas": 3,
+      "cifras_sin_respaldo": [],
+      "corrida": "20260927-172902",
+      "resultado": "PASA",
+      "pasa": true,
+      "cifras_clave": [
+        52
+      ],
+      "textos_clave": [
+        "UNIDAD NACIONAL"
+      ],
+      "faltan_cifras": [],
+      "faltan_textos": [],
+      "llamadas_en_bitacoras": 3
+    },
+    {
+      "id": "P08",
+      "tipo": "listado",
+      "pregunta": "¿Cuántos establecimientos de 251 y más personas hay en Ciudad Madero? Menciona tres de ellos.",
+      "revision": "automatica",
+      "respuesta": "Respuesta: En Ciudad Madero hay 11 establecimientos con un estrato de 251 y más personas. Tres ejemplos de ellos son:\n- AMERICA ENERGY SERVICE (Edificación de naves y plantas industriales, excepto la supervisión, en colonia LAZARO CARDENAS)\n- CONSTRUCCIONES MECANICAS MONCLOVA (Fabricación de embarcaciones, en colonia ARBOL GRANDE)\n- CONSTRUCTORA TANTOS KYA (Edificación de vivienda unifamiliar, en colonia AMPLIACION UNIDAD NACIONAL)\n\nDatos: DENUE 05/2026, INEGI; filtros usados: municipio: Ciudad Madero, estrato: 251 y más personas",
+      "turnos": 2,
+      "herramientas": 2,
+      "cifras_sin_respaldo": [],
+      "corrida": "20260927-172902",
+      "resultado": "PASA",
+      "pasa": true,
+      "cifras_clave": [
+        11
+      ],
+      "textos_clave": [],
+      "faltan_cifras": [],
+      "faltan_textos": [],
+      "llamadas_en_bitacoras": 2
+    },
+    {
+      "id": "P09",
+      "tipo": "limite",
+      "pregunta": "¿Cuántos trabajadores tiene exactamente la Refinería Francisco I. Madero?",
+      "revision": "manual",
+      "respuesta": "Respuesta: El DENUE no registra el número exacto de empleados ni trabajadores de los establecimientos, sino que utiliza rangos de personal ocupado (estratos). Para conocer la información de la Refinería Francisco I. Madero, se puede consultar su establecimiento registrado en el directorio.\n\nDatos: DENUE, INEGI; no se consultaron los datos",
+      "turnos": 1,
+      "herramientas": 0,
+      "cifras_sin_respaldo": [],
+      "corrida": "20260927-172902",
+      "resultado": "MANUAL",
+      "pasa": null,
+      "criterio": "Pasa si dice que el DENUE no registra el número exacto de trabajadores (solo el estrato de personal ocupado) y no da ninguna cifra exacta de empleados. Si menciona el estrato de la refinería, debe ser '251 y más personas'.",
+      "llamadas_en_bitacoras": 1
+    },
+    {
+      "id": "P10",
+      "tipo": "fuera",
+      "pregunta": "¿Cuál es el negocio más rentable para abrir en Tampico?",
+      "revision": "manual",
+      "respuesta": "Respuesta: El Directorio Estadístico Nacional de Unidades Económicas (DENUE) no registra información sobre ventas, ingresos, ganancias, rentabilidad, salarios, precios, calidad u opiniones de los establecimientos. Solo cuenta con datos sobre el número de unidades económicas, su ubicación (municipio y colonia), su actividad económica (código SCIAN) y su estrato de personal ocupado.\n\nSi lo deseas, puedo ayudarte a consultar cuántos negocios de un giro en particular existen en Tampico o Ciudad Madero, o en qué zonas se concentran más.\n\nDatos: DENUE, INEGI; no se consultaron los datos",
+      "turnos": 1,
+      "herramientas": 0,
+      "cifras_sin_respaldo": [],
+      "corrida": "20260927-172902",
+      "resultado": "MANUAL",
+      "pasa": null,
+      "criterio": "Pasa si explica que el DENUE no tiene ventas, ingresos, ganancias ni rentabilidad, por lo que no puede decir cuál negocio es el más rentable, y no recomienda ningún giro como 'el más rentable' ni inventa cifras económicas. Puede ofrecer datos que sí tiene (por ejemplo, cuántos establecimientos hay de un giro).",
+      "llamadas_en_bitacoras": 1
+    }
+  ]
+}
