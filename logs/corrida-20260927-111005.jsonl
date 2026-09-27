@@ -1,0 +1,10 @@
+{"ts": "2026-09-27T11:10:05", "corrida": "20260927-111005", "modelo": "simulado", "id": "CLI", "evento": "inicio", "pregunta": "¿Cuántas farmacias hay en Tampico?"}
+{"ts": "2026-09-27T11:10:05", "corrida": "20260927-111005", "modelo": "simulado", "id": "CLI", "evento": "modelo", "turno": 1, "forzar_texto": false, "tokens_entrada": null, "tokens_salida": null}
+{"ts": "2026-09-27T11:10:05", "corrida": "20260927-111005", "modelo": "simulado", "id": "CLI", "evento": "herramienta", "nombre": "buscar_actividades", "args": {"texto": "farmacia"}, "ok": true, "error": null}
+{"ts": "2026-09-27T11:10:05", "corrida": "20260927-111005", "modelo": "simulado", "id": "CLI", "evento": "modelo", "turno": 2, "forzar_texto": false, "tokens_entrada": null, "tokens_salida": null}
+{"ts": "2026-09-27T11:10:05", "corrida": "20260927-111005", "modelo": "simulado", "id": "CLI", "evento": "herramienta", "nombre": "contar", "args": {"codigo_act": "464111,464112", "municipio": "Tampico"}, "ok": true, "error": null}
+{"ts": "2026-09-27T11:10:05", "corrida": "20260927-111005", "modelo": "simulado", "id": "CLI", "evento": "modelo", "turno": 3, "forzar_texto": false, "tokens_entrada": null, "tokens_salida": null}
+{"ts": "2026-09-27T11:10:05", "corrida": "20260927-111005", "modelo": "simulado", "id": "CLI", "evento": "guardia", "cifras_sin_respaldo": [160], "corregida": false}
+{"ts": "2026-09-27T11:10:05", "corrida": "20260927-111005", "modelo": "simulado", "id": "CLI", "evento": "modelo", "turno": 4, "forzar_texto": false, "tokens_entrada": null, "tokens_salida": null}
+{"ts": "2026-09-27T11:10:05", "corrida": "20260927-111005", "modelo": "simulado", "id": "CLI", "evento": "guardia", "cifras_sin_respaldo": [], "corregida": true}
+{"ts": "2026-09-27T11:10:05", "corrida": "20260927-111005", "modelo": "simulado", "id": "CLI", "evento": "fin", "respuesta": "Respuesta: En Tampico hay 154 farmacias (clases 464111 y 464112).\nDatos: DENUE 05/2026, INEGI", "turnos": 4, "herramientas": 2, "cifras_sin_respaldo": [], "segundos": 0.08}
